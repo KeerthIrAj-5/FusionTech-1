@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile-section {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    color: white;
+    padding: 80px 0;
+}
+
+.profile-section img {
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+#about {
+    margin-bottom: 40px;
+}
+
+/* Skills Section */
+.skill-card {
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+}
+
+.skill-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    font-size: 1rem;
+}
+
+/* Portfolio Section */
+.card {
+    transition: transform 0.3s;
+    border: none;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    padding: 40px 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer a {
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff;
+}
